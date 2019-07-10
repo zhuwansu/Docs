@@ -1,0 +1,5 @@
+D:\xk.erp\Cut\obj\Debug\Cut.csproj.CoreCompileInputs.cache
+D:\xk.erp\Cut\bin\Debug\Cut.exe
+D:\xk.erp\Cut\bin\Debug\Cut.pdb
+D:\xk.erp\Cut\obj\Debug\Cut.exe
+D:\xk.erp\Cut\obj\Debug\Cut.pdb

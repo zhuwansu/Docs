@@ -1,0 +1,1 @@
+cut log.txt 1
