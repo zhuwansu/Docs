@@ -8,8 +8,7 @@
 ## 文件下载
 
 > - [cut.exe](tools/CutRelease/Cut.exe "切割文件小工具")  
-> - [log.txt](tools/CutRelease/log.txt "测试使用的日志文件")  
-> - [demo.cmd](tools/CutRelease/test.cmd "演示用的 bat 命令")  
+> - [cut.7z](tools/CutRelease/cut.7z "打包下载")
 
 ## 使用说明
 
