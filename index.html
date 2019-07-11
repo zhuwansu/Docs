@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div v-html="renderMD"></div>
+    </div>
+</body>
+
+<script>
+    $.get("Cut.md", function (response) {
+        var app = new Vue({
+            el: '#app',
+            data: {
+            },
+            methods: {
+            },
+            computed: {
+                renderMD() {
+                    return marked(response);
+                }
+            },
+            mounted: function () {
+                $('#app a').attr('target', "_blank");
+            }
+        })
+    });
+</script>
